@@ -1,0 +1,121 @@
+body {
+    color: #777777;
+    width: 1000px; 
+    min-height: 100%;
+    margin-left, margin-right: calc((100% - 1000px) / 2);
+    padding: 20px;
+    font-family: "Arial, Helvetica Neue, Helvetica, sans-serif";
+}
+
+#headerarea {
+    height: calc(10% - 3px); 
+    width: 100%;
+    background-color: white; 
+    border-color: #ccc;
+    border-style: none none solid none; 
+    border-width: 3px; 
+    position: fixed; 
+    margin: 0;
+    left: 0;
+}
+
+
+h1 {
+    font-family: "Georgia, Times, Times New Roman, serif"; 
+    color: white;
+    background-color: #4aaaa5; 
+}
+
+h2 {
+    font-family: "Georgia, Times, Times New Roman, serif"; 
+    color: #4aaaa5;
+    border-color: #ccc;
+    border-style:  none none solid none; 
+    border-width: 3px;
+    padding: 10px 0px; 
+}
+
+#tab {
+    font-family: "Georgia, Times, Times New Roman, serif"; 
+    font-size: 24px;
+    color: white;
+    background-color: #4aaaa5; 
+    position: fixed;
+    top: 0; 
+    * same margin as content once that is calculated
+    left: calc(calc(100% - 1000px) / 2);  
+    height: calc( 10% - 15px);
+    padding: 20px 20px; 
+    text-align: center;
+
+}
+
+#menu {
+    color: #777;
+    height: 10%;
+    position: fixed;
+    right: 0; 
+    width: 30%; 
+
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+    font-family: "Arial, Helvetica Neue, Helvetica, sans-serif";
+} 
+
+a:hover {
+    text-decoration: underline;
+}
+    
+
+#bio { 
+    float: left;
+}
+
+img { 
+    margin: 0px 10px 10px 0px; 
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    height: 20px;
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+}
+
+.backwall {
+    background-image: url("../images/greekvase.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: calc (90% - 20px);
+    position: fixed;
+    top: 10%;
+}
+
+
+#content {
+    width: 960px;
+    margin: 0px auto;  
+    padding: 20px;
+    position: fixed; 
+    top: 20%;  
+    left: calc(calc(100% - 1000px) / 2);  
+
+}
+
+   * Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`
