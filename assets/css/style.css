@@ -96,9 +96,9 @@ footer {
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
-    height: calc (90% - 20px);
+    height: calc(90% - 20px);
     position: fixed;
-    top: 10%;
+    top: calc(15% + 3px);
 }
 
 
@@ -107,9 +107,9 @@ footer {
     margin: 0px auto;  
     padding: 20px;
     position: fixed; 
-    top: 20%;  
-    left: calc(calc(100% - 1000px) / 2);  
-
+    top: 20%; 
+    background: white; 
+    
 }
 
    * Teal color (used for headings and backgrounds): `#4aaaa5`
