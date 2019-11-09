@@ -23,7 +23,7 @@ body {
 #headercontent {
     display: flex;
     justify-content: space-between;
-    width: 920px; 
+    width: 960px; 
     margin: 0 auto; 
 }
 
@@ -33,7 +33,7 @@ body {
     color: white;
     background-color: #4aaaa5; 
     align-content: flex-end;
-    width: 30%;
+    width: 25%;
     padding: 20px 0px; 
     text-align: center;
 }
@@ -83,10 +83,22 @@ h2 {
     background-size:cover;
     width: 100%;
     height: calc(90% - 20px);
-    position: fixed;
-    top: 9%;
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 48px; 
 }
 
+#content {
+    width: 920px;
+    margin: 0px auto;  
+    padding: 20px;
+    position: relative; 
+    top: 60px; 
+    background: white; 
+    border: solid 1px #ddd; 
+}
 
 footer {
     border-top: 8px solid #4aaaa5;
@@ -102,15 +114,6 @@ footer {
 }
  
 
-#content {
-    width: 920px;
-    margin: 0px auto;  
-    padding: 20px;
-    position: relative; 
-    top: 10%; 
-    background: white; 
-    
-}
  
 /*
    * Teal color (used for headings and backgrounds): `#4aaaa5`
