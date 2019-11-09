@@ -1,6 +1,16 @@
 Still To Do: 
 
-Align backwall correctly 
-Align tab correctly, compute height 
-Font not being picked up for bio 
-Prettify menu links 
+
+Font not being picked up for menu links
+Sticky footer doesn't let you scroll 
+
+
+.backwall {
+    top: 7%;
+}
+
+div#content {
+    margin: 0 auto;
+    position:  relative;
+    top: 10%;
+}
